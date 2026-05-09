@@ -80,6 +80,32 @@ DOMAIN-SUFFIX,wunderlist.com
 DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,yammerusercontent.com
 
+# =====  Copilot Core  =====
+DOMAIN,location.microsoft.com
+DOMAIN,odc.officeapps.live.com
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN,copilot-proxy.githubusercontent.com
+
+# =====  Copilot Chat / Bing  =====
+DOMAIN,sydney.bing.com
+DOMAIN,gateway.bingviz.microsoft.net
+DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN-SUFFIX,edgeservices.bing.com
+
+# ===== Third-party dependency (minimum set) =====
+DOMAIN-SUFFIX,algolia.net
+DOMAIN,api.statsig.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+
+# ===== Supplement MSN Resources (Copilot FAQ Pictures and Texts, etc.) =====
+DOMAIN,api.msn.com
+DOMAIN,assets.msn.com
+
+
 # -----------------------
 # Education / Others
 # -----------------------
