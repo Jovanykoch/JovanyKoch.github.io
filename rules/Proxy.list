@@ -3,24 +3,16 @@
 # -----------------------
 # Telegram / Swiftgram
 # -----------------------
-DOMAIN-SUFFIX,swiftgram.app
-DOMAIN-SUFFIX,swiftgram.org
-DOMAIN-SUFFIX,swiftgram.net
-DOMAIN-SUFFIX,swiftgram.pro
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,telesco.pe
-IP-ASN, 44907
-IP-ASN, 62014
-IP-ASN, 59930
-IP-ASN, 62041
-IP-ASN, 211157
-IP-CIDR, 5.28.192.0/18
-IP-CIDR, 109.239.140.0/24
+IP-ASN,44907,no-resolve
+IP-ASN,62014,no-resolve
+IP-ASN,59930,no-resolve
+IP-ASN,62041,no-resolve
+IP-ASN,211157,no-resolve
+IP-CIDR,5.28.192.0/18,no-resolve
+IP-CIDR,109.239.140.0/24,no-resolve
 # TODO: verify swiftgram.pro owner
 
 
