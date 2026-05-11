@@ -1,18 +1,12 @@
 # ProxyLite.list — cleaned 2026-04-23
 
 # -----------------------
-# Telegram / Swiftgram
+# Telegram
 # -----------------------
-host-suffix,swiftgram.app
-host-suffix,swiftgram.org
-host-suffix,swiftgram.net
-host-suffix,swiftgram.pro
 host-suffix,telegram.org
 host-suffix,t.me
-host-suffix,tdesktop.com
-host-suffix,telegra.ph
 host-suffix,telegram.me
-host-suffix,telegram.dog
+host-suffix,telegram.net
 host-suffix,telesco.pe
 ip-asn,44907
 ip-asn,62014
@@ -152,6 +146,7 @@ host-suffix,hotmail.com
 # -----------------------
 # GitHub
 # -----------------------
+
 host-suffix,github.com
 host-suffix,githubassets.com
 host-suffix,githubusercontent.com
@@ -161,11 +156,12 @@ host-suffix,githubstatus.com
 host-suffix,githubcopilot.com
 host-suffix,pkg.github.com
 host-suffix,actions.githubusercontent.com
-
+host-keyword,github
 # -----------------------
 # Education / Others
 # -----------------------
 # JJC
+host-keyword,jjc
 host-suffix,jjc.edu
 host-suffix,stujjc.edu
 host,jjc.instructure.com
@@ -175,13 +171,16 @@ host-suffix,canvaslms.com
 host-suffix,instructure.com
 
 # CSUN
+host-keyword,csun
 host-suffix,csun.edu
 
 # Spokane
+host-keyword,spokane
 host-suffix,spokane.edu
 host,scc.spokane.edu
 
 # SF College
+host-keyword,sfcollege
 host-suffix,sfcollege.edu
 
 # Maricopa edu
