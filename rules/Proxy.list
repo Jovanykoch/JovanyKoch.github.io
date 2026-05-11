@@ -44,6 +44,7 @@ DOMAIN-SUFFIX,perplexitylabs.com
 # -----------------------
 # Spotify
 # -----------------------
+DOMAIN-KEYWORD,spotify
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,scdn.co
@@ -58,6 +59,7 @@ DOMAIN-SUFFIX,cdninstagram.com
 # -----------------------
 # PayPal
 # -----------------------
+DOMAIN-KEYWORD,paypal
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,pypl.com
@@ -134,9 +136,12 @@ DOMAIN-SUFFIX,pkg.github.com
 DOMAIN-SUFFIX,actions.githubusercontent.com
 
 # cloudflare
+DOMAIN-KEYWORD,cloudflare
+DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare.com
 
 # Dropbox
+DOMAIN-KEYWORD,dropbox
 DOMAIN-SUFFIX,dropbox.com
 
 # truecaller 
