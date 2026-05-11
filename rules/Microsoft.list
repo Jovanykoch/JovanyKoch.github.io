@@ -108,6 +108,7 @@ DOMAIN,assets.msn.com
 # Education / Others
 # -----------------------
 # JJC
+DOMAIN-KEYWORD,jjc
 DOMAIN-SUFFIX,jjc.edu
 DOMAIN-SUFFIX,stujjc.edu
 DOMAIN,jjc.instructure.com
@@ -117,16 +118,20 @@ DOMAIN-SUFFIX,canvaslms.com
 DOMAIN-SUFFIX,instructure.com
 
 # CSUN
+DOMAIN-KEYWORD,csun
 DOMAIN-SUFFIX,csun.edu
-
+DOMAIN,csun.com
 # Spokane
+DOMAIN-KEYWORD,spokane
 DOMAIN-SUFFIX,spokane.edu
 DOMAIN,scc.spokane.edu
 
 # SF College
+DOMAIN-KEYWORD,sfcollege
 DOMAIN-SUFFIX,sfcollege.edu
 
 # Maricopa edu
+DOMAIN-KEYWORD,maricopa
 DOMAIN-SUFFIX,maricopa.edu
 
 # Duo MFA
