@@ -134,7 +134,9 @@ DOMAIN-SUFFIX,pkg.github.com
 DOMAIN-SUFFIX,actions.githubusercontent.com
 
 # Dropbox
-
 DOMAIN-SUFFIX,dropbox.com
+
+# truecaller 
+DOMAIN-SUFFIX,truecaller.com
 
 ##==============================
