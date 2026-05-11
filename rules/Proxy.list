@@ -133,6 +133,9 @@ DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,pkg.github.com
 DOMAIN-SUFFIX,actions.githubusercontent.com
 
+# cloudflare
+DOMAIN-SUFFIX,cloudflare.com
+
 # Dropbox
 DOMAIN-SUFFIX,dropbox.com
 
