@@ -16,41 +16,7 @@ ip-asn,211157
 ip-cidr,5.28.192.0/18
 ip-cidr,109.239.140.0/24
 # TODO: verify swiftgram.pro owner
-
-# -----------------------
-# Microsoft
-# -----------------------
-host-suffix,microsoft.com
-host-suffix,live.com
-host-suffix,live.net
-host-suffix,msn.com
-host-suffix,passport.net
-host-suffix,outlook.com
-host-suffix,office.com
-host-suffix,office.net
-host-suffix,office365.com
-host-suffix,onedrive.com
-host-suffix,sharepoint.com
-host-suffix,sharepointonline.com
-host-suffix,skype.com
-host-suffix,teams.microsoft.com
-host-suffix,azure.com
-host-suffix,azure.net
-host-suffix,azureedge.net
-host-suffix,windows.net
-host-suffix,windows.com
-host-suffix,windowsupdate.com
-host-suffix,xbox.com
-host-suffix,xboxlive.com
-host-suffix,bing.com
-host-suffix,bing.net
-host-suffix,bingapis.com
-host-suffix,msauth.net
-host-suffix,msftauth.net
-host-suffix,msidentity.com
-host-suffix,msedge.net
-host-suffix,msedgechrome.com
-
+#
 # -----------------------
 # X (Twitter)
 # -----------------------
@@ -80,7 +46,7 @@ host,openaiapi-site.azureedge.net
 host,production-openaicom-storage.azureedge.net
 host,openaicomproductionae4b.blob.core.windows.net
 host,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-
+#
 # -----------------------
 # Anthropic AI
 # ------------------------
@@ -91,13 +57,13 @@ host-suffix,anthropic.com
 host-suffix,claudemcpclient.com
 host-suffix,claudeusercontent.com
 host,servd-anthropic-website.b-cdn.net
-
+#
 # -----------------------
 # Perplexity Ai
 # -----------------------
 host-suffix,perplexity.ai
 host-suffix,perplexitylabs.com
-
+#
 # -----------------------
 # Spotify
 # -----------------------
@@ -105,13 +71,13 @@ host-suffix,spotify.com
 host-suffix,spotifycdn.com
 host-suffix,scdn.co
 host-suffix,spoti.fi
-
+#
 # -----------------------
 # Meta (Instagram)
 # -----------------------
 host-suffix,instagram.com
 host-suffix,cdninstagram.com
-
+#
 # -----------------------
 # PayPal
 # -----------------------
@@ -129,7 +95,7 @@ host-suffix,reddit.com
 host-suffix,redd.it
 host-suffix,wikipedia.org
 host-suffix,wikimedia.org
-
+#
 # -----------------------
 # Google
 # -----------------------
@@ -142,11 +108,9 @@ host-suffix,youtu.be
 # 可选：若要完整收拢 Gmail / Hotmail
 host-suffix,gmail.com
 host-suffix,hotmail.com
-
 # -----------------------
 # GitHub
 # -----------------------
-
 host-suffix,github.com
 host-suffix,githubassets.com
 host-suffix,githubusercontent.com
