@@ -1,9 +1,9 @@
-# 🚫 rejec.list
+# 🚫 Advertising.list
 # Surge rule list for Reject services
 # Generated: 2026-05-09
 # Format: DOMAIN,example.com  or DOMAIN-SUFFIX,example.com
+# Total = 36808
 # -------------------------------------------------------
-
 DOMAIN,0.code.cotsta.ru
 DOMAIN,00-gov.cn
 DOMAIN,0026645142c89aeb1.com
@@ -36813,4 +36813,4 @@ DOMAIN-SUFFIX,axp.wric.com
 DOMAIN-SUFFIX,axp.wsav.com
 DOMAIN-SUFFIX,axp.wspa.com
 
-#===============================
+#==================
