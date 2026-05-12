@@ -1,0 +1,44 @@
+# 🐙 GitHub.list (full version/ DOMAIN + DOMAIN-SUFFIX）
+
+
+# ===== Core GitHub =====
+DOMAIN-SUFFIX,github.com
+DOMAIN,api.github.com
+DOMAIN,gist.github.com
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.community
+DOMAIN-SUFFIX,githubstatus.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,education.github.com
+DOMAIN,alive.github.com
+DOMAIN,live.github.com
+
+# ===== GitHub Pages =====
+DOMAIN-SUFFIX,github.io
+
+# ===== GitHub Static Assets =====
+DOMAIN-SUFFIX,github.githubassets.com
+
+# ===== GitHub CDN（Fastly）=====
+DOMAIN-SUFFIX,github.global.ssl.fastly.net
+DOMAIN-SUFFIX,github.map.fastly.net
+
+# ===== GitHub User Content（githubusercontent.com 全分片）=====
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,raw.githubusercontent.com
+DOMAIN-SUFFIX,avatars.githubusercontent.com
+DOMAIN-SUFFIX,avatars0.githubusercontent.com
+DOMAIN-SUFFIX,avatars1.githubusercontent.com
+DOMAIN-SUFFIX,avatars2.githubusercontent.com
+DOMAIN-SUFFIX,avatars3.githubusercontent.com
+DOMAIN-SUFFIX,avatars4.githubusercontent.com
+DOMAIN-SUFFIX,avatars5.githubusercontent.com
+DOMAIN-SUFFIX,camo.githubusercontent.com
+DOMAIN-SUFFIX,cloud.githubusercontent.com
+DOMAIN-SUFFIX,desktop.githubusercontent.com
+DOMAIN-SUFFIX,favicons.githubusercontent.com
+DOMAIN-SUFFIX,media.githubusercontent.com
+DOMAIN-SUFFIX,objects.githubusercontent.com   # GitHub workflow CDN（官方确认） [9F742443-6C92-4C44-BF58-8F5A7C53B6F1](https://github.com/orgs/community/discussions/58455?citationMarker=9F742443-6C92-4C44-BF58-8F5A7C53B6F1&citationId=C56EBA1E-FB52-4679-A81A-F45376BD733F&citationTitle=Github&citationFullTitle=Github&chatItemId=auNtsWhYJ33UxNXDLYNSt)
+
+# ===== GitHub Releases CDN =====
+DOMAIN-SUFFIX,github-releases.githubusercontent.com   # Releases 资源 CDN（S3 + CDN） [9F742443-6C92-4C44-BF58-8F5A7C53B6F1](https://www.ipaddress.com/website/github-releases.githubusercontent.com?citationMarker=9F742443-6C92-4C44-BF58-8F5A7C53B6F1&citationId=4560A742-9BA7-4614-90EC-7761ACD006F3&citationTitle=IPAddress.com&citationFullTitle=IPAddress.com&chatItemId=auNtsWhYJ33UxNXDLYNSt)
