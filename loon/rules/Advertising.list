@@ -1,3 +1,10 @@
+# 🚫 Advertising.list
+# Surge rule list for Reject services
+# Generated: 2026-05-09
+# Format: DOMAIN,example.com  or DOMAIN-SUFFIX,example.com
+# Total = 123
+# -------------------------------------------------------
+
 # PCDN
 DOMAIN-KEYWORD,2pcdn.
 DOMAIN-KEYWORD,bsccdn
