@@ -34,6 +34,8 @@ DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,auth0.com
+DOMAIN-KEYWORD,chatgpt
+
 
 # -----------------------
 # Perplexity Ai
@@ -134,6 +136,7 @@ DOMAIN-SUFFIX,githubstatus.com
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,pkg.github.com
 DOMAIN-SUFFIX,actions.githubusercontent.com
+DOMAIN-KEYWORD,github
 
 # cloudflare
 DOMAIN-KEYWORD,cloudflare
