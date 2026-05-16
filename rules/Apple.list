@@ -1,27 +1,72 @@
-#DOMAIN-KEYWORD,.icloud.
-#DOMAIN-KEYWORD,.mzstatic.
-#DOMAIN-KEYWORD,apple
-#DOMAIN-KEYWORD,itunes.
-
+# 🍎 Apple.list (Malaysia‑Optimized, Pure DOMAIN / DOMAIN‑SUFFIX)
+# ===== Core Apple =====
 DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple.cn
+
+# ===== iCloud =====
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud-privacy-relay.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mac.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,stats-apple.com
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple-livephotoskit.com
-DOMAIN-SUFFIX,apple-mapkit.com
-DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,icloud.com.cn
 
-DOMAIN-KEYWORD,apple-finance
-DOMAIN-KEYWORD,apple-relay
-DOMAIN-KEYWORD,apple.com.
-DOMAIN-KEYWORD,apple.map.
-DOMAIN-KEYWORD,apple.pvxt.
-DOMAIN-KEYWORD,appledownload.
-IP-CIDR,17.0.0.0/16
+# ===== App Store / iTunes =====
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,mzstatic.com
+
+# ===== Apple CDN (APAC / Malaysia relevant) =====
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apple-dns.com
+DOMAIN-SUFFIX,apple-dns.cn
+
+# ===== Malaysia / Singapore Apple CDN Edges =====
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,akadns6.net
+DOMAIN-SUFFIX,edgekey.net
+DOMAIN-SUFFIX,edgesuite.net
+DOMAIN-SUFFIX,akamaiedge.net
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,akamaized.net
+
+# ===== Activation / Setup =====
+DOMAIN,albert.apple.com
+DOMAIN,captive.apple.com
+DOMAIN,gs.apple.com
+DOMAIN,humb.apple.com
+DOMAIN,sq-device.apple.com
+DOMAIN,tbsc.apple.com
+
+# ===== Time / NTP =====
+DOMAIN,time.apple.com
+DOMAIN,time-ios.apple.com
+DOMAIN,time-macos.apple.com
+
+# ===== APNs =====
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN-SUFFIX,api.push.apple.com
+
+# ===== Maps / Location =====
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+
+# ===== Developer =====
+DOMAIN-SUFFIX,swift.org
+DOMAIN-SUFFIX,webkit.org
+DOMAIN-SUFFIX,apple-cloudkit.com
+
+# ===== User Content =====
+DOMAIN-SUFFIX,appleschoolcontent.com
+DOMAIN-SUFFIX,axm-usercontent-apple.com
+
+# ===== Subsidiaries =====
+DOMAIN-SUFFIX,shazam.com
+DOMAIN-SUFFIX,beatsbydre.com
+DOMAIN-SUFFIX,beddit.com
+DOMAIN-SUFFIX,claris.com
+DOMAIN-SUFFIX,filemaker.com
+DOMAIN-SUFFIX,filemaker-cloud.com
+DOMAIN-SUFFIX,ifmcloud.com
+DOMAIN-SUFFIX,pixelmator.com
+DOMAIN-SUFFIX,platoon.ai
