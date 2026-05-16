@@ -1,59 +1,256 @@
-# Jovanykoch's Network Rule Sets and Configurations
+# Jovanykoch's Network Rule Sets & Surge Configurations
 
-This repository serves as a comprehensive collection of network rule sets and configurations primarily designed for proxy tools such as **Surge**, **Loon**, and **Quantumult X (QX)**. It aims to provide optimized and categorized domain lists to enhance network control, privacy, and browsing experience.
+Production-ready self-hosted network rule sets and Surge configurations optimized for:
 
-## Features
+- Surge iOS
+- WireGuard
+- AI routing
+- Smart DNS handling
+- China direct routing
+- Global proxy traffic split
+- Self-hosted RULE-SET deployment
 
-*   **Categorized Rule Sets**: Domain lists are meticulously categorized for various purposes, including direct connections, proxy routing, and ad/tracker blocking.
-*   **Multi-Tool Compatibility**: Configurations and rule sets are structured to be compatible with popular network proxy applications.
-*   **Optimized for Performance**: Redundant entries are regularly reviewed and removed to ensure lean and efficient rule processing.
-*   **Easy Integration**: Designed for straightforward integration via subscription links or direct file import.
+This repository provides categorized rule sets, proxy policies, and subscription-ready configurations designed for stability, performance, and maintainability.
 
-## Supported Tools
+---
 
-This repository provides configurations and rule sets for the following applications:
+# Features
 
-*   **Surge**: Advanced network utility for iOS and macOS.
-*   **Loon**: Rule-based proxy utility for iOS.
-*   **Quantumult X (QX)**: Powerful network proxy and web developer tool for iOS.
+## Smart Traffic Routing
 
-## Rule Categories Overview
+- China Mainland traffic → DIRECT
+- Global services → PROXY
+- AI services → Dedicated AI policy group
+- Apple services → DIRECT
+- LAN / private network → DIRECT
 
-The `rules/` directory contains various domain lists, each serving a specific purpose:
+---
 
-| File Name             | Description                                                                 | Policy (Typical) |
-| :-------------------- | :-------------------------------------------------------------------------- | :--------------- |
-| `adblock.list`        | Domains for ad-blocking and tracker prevention.                             | REJECT           |
-| `reject.list`         | Domains to be blocked (e.g., ads, trackers, malicious sites).               | REJECT           |
-| `china.list`          | Domains primarily for Mainland China services, routed directly.             | DIRECT           |
-| `china_ip.list`       | IP-CIDR list for Mainland China IP ranges.                                  | DIRECT           |
-| `proxy.list`          | **Comprehensive Proxy List**: Includes International services, **Microsoft (Full)**, **GitHub**, **OpenAI**, **Telegram**, and **Education** domains. | PROXY            |
-| `apple.list`          | Apple-related services (Optimized for MY).                                  | DIRECT           |
-| `direct.list`         | A comprehensive list of domains for direct connection.                      | DIRECT           |
-| `lan.list`            | Local Area Network (LAN) related domains.                                   | DIRECT           |
+## WireGuard Optimized
 
-> **Note**: `microsoft.list`, `github.list`, `Copilot.list`, and `edu.list` have been merged into `proxy.list` for easier maintenance and better performance.
+- WireGuard backbone support
+- UDP priority enabled
+- QUIC blocking support
+- Mobile-network friendly
+- IPv4 preferred routing
 
-Similar categorized rule sets can be found within the `loon/rules/` and `qx/rules/` subdirectories, tailored for their respective applications.
+---
 
-## Usage and Subscription
+## Self-Hosted RULE-SET
 
-To utilize these rule sets, you can typically subscribe to the raw `.list` files directly within your chosen proxy application (Surge, Loon, QX). For example, to use `proxy.list` in Surge, you would add a rule like:
+Hosted using GitHub Pages / custom CDN.
 
+Example:
+
+```ini
+RULE-SET,https://jkoch14.me/rules/China.list,DIRECT
 ```
-[Rule]
-RULE-SET,https://jovanykoch.github.io/rules/proxy.list,Proxy
+
+Benefits:
+
+- Faster updates
+- Better cache control
+- Easier maintenance
+- Reduced third-party dependency
+
+---
+
+# Repository Structure
+
+```txt
+.
+├── README.md
+├── index.html
+├── surge.conf
+├── rules/
+│   ├── Advertising.list
+│   ├── Apple.list
+│   ├── China.list
+│   ├── GitHub.list
+│   ├── Microsoft.list
+│   ├── OpenAI.list
+│   ├── Proxy.list
+│   └── Direct.list
+├── loon/
+└── qx/
 ```
 
-**Important Notes:**
-*   Always ensure the correct policy (DIRECT, PROXY, REJECT) is applied according to your needs.
-*   The order of rules in your configuration matters. Generally, more specific rules should come before more general ones.
-*   Consider using `GEOIP,CN,DIRECT` as a final rule for Mainland China traffic if not explicitly covered by other rules.
+---
 
-## Contribution
+# Surge Subscription
 
-Suggestions for improvements, bug reports, or new rule additions are welcome. Please open an issue or submit a pull request.
+## Main Configuration
 
-## License
+```txt
+https://jkoch14.me/surge.conf
+```
 
-This repository is intended for personal use and learning purposes. While the configurations are shared publicly, users are responsible for ensuring compliance with all relevant laws and terms of service when using these rule sets. Please respect all relevant licensing when using third-party tools and configurations documented here.
+Import directly into Surge iOS.
+
+---
+
+# Proxy Groups
+
+```ini
+Proxy = select, 🇭🇰 HK, 🇺🇸 US
+AI = select, 🇺🇸 US, Proxy
+
+🇭🇰 HK = url-test, policy-regex-filter=港|HK|Hong
+🇺🇸 US = url-test, policy-regex-filter=美|US|States
+```
+
+---
+
+# Routing Policy
+
+```ini
+RULE-SET,https://jkoch14.me/rules/Advertising.list,REJECT
+RULE-SET,https://jkoch14.me/rules/China.list,DIRECT
+RULE-SET,https://jkoch14.me/rules/Apple.list,DIRECT
+RULE-SET,https://jkoch14.me/rules/OpenAI.list,AI
+RULE-SET,https://jkoch14.me/rules/Microsoft.list,Proxy
+RULE-SET,https://jkoch14.me/rules/GitHub.list,Proxy
+
+GEOIP,CN,DIRECT
+FINAL,Proxy,dns-failed
+```
+
+---
+
+# DNS & Network Optimization
+
+Current configuration includes:
+
+```ini
+dns-server = system,119.29.29.29,223.5.5.5
+
+hijack-dns = 8.8.8.8:53,1.1.1.1:53
+
+block-quic = all-proxy
+
+udp-priority = true
+```
+
+Features:
+
+- DNS hijack protection
+- Public DNS interception
+- UDP optimization
+- QUIC control
+- Better mobile network stability
+
+---
+
+# Supported Applications
+
+## Surge
+
+Primary supported platform.
+
+- Surge iOS
+- Surge Mac
+
+---
+
+## Loon
+
+Rule-set compatible.
+
+---
+
+## Quantumult X
+
+Partial compatibility depending on rule syntax.
+
+---
+
+# Rule Categories
+
+| Rule File | Purpose | Typical Policy |
+|---|---|---|
+| Advertising.list | Ads / tracker blocking | REJECT |
+| China.list | China Mainland domains | DIRECT |
+| Apple.list | Apple services | DIRECT |
+| OpenAI.list | OpenAI / ChatGPT | AI |
+| Microsoft.list | Microsoft services | Proxy |
+| GitHub.list | GitHub services | Proxy |
+| Proxy.list | Common overseas services | Proxy |
+| Direct.list | Direct routing domains | DIRECT |
+
+---
+
+# Security Notice
+
+DO NOT publicly expose:
+
+- WireGuard private keys
+- Snell PSK
+- VPS real IP addresses
+- API passwords
+- Endpoint credentials
+
+Public repositories should only contain:
+
+- Sanitized configurations
+- Templates
+- Example setups
+
+---
+
+# Recommended Deployment
+
+Recommended architecture:
+
+```txt
+GitHub Repository
+        ↓
+GitHub Pages
+        ↓
+Custom Domain / CDN
+        ↓
+Surge RULE-SET Subscription
+```
+
+Optional:
+
+- Cloudflare CDN
+- jsDelivr cache
+- Self-hosted VPS mirror
+
+---
+
+# Changelog
+
+## 2026-05
+
+- Added AI policy group
+- Optimized DNS hijack
+- Enabled QUIC blocking
+- Improved WireGuard routing
+- Reorganized RULE-SET structure
+
+---
+
+# Compatibility
+
+Recommended environment:
+
+- iOS 17+
+- Surge iOS
+- WireGuard backend
+- IPv4 preferred
+
+---
+
+# Disclaimer
+
+This repository is intended for:
+
+- Personal use
+- Research
+- Learning
+- Network management
+
+Users are responsible for complying with all applicable laws, regulations, and service terms within their jurisdiction.
+
+---
