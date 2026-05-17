@@ -22,6 +22,8 @@ DOMAIN-KEYWORD,xycdn.
 DOMAIN-KEYWORD,yfcdn.
 DOMAIN-KEYWORD,yfp2p.
 
+DOMAIN-KEYWORD,anonfiles
+
 # HTTPDNS
 DOMAIN-KEYWORD,httpsdns
 DOMAIN-KEYWORD,https-dns                                                          
@@ -76,7 +78,6 @@ IP-CIDR,101.36.166.16/32
 IP-CIDR,180.96.2.114/32
 
 # 其他
-DOMAIN-SUFFIX,anonfiles.com
 DOMAIN-SUFFIX,evtubescms.phncdn.com
 DOMAIN-SUFFIX,deprecated.bitpix.top
 DOMAIN-KEYWORD,better365
