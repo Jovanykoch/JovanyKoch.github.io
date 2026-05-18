@@ -56,7 +56,7 @@ DOMAIN-SUFFIX,pypl.com
 # -----------------------
 # Google
 # -----------------------
-
+DOMAIN-SUFFIX,google
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
