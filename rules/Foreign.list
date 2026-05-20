@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,notion.so
+DOMAIN-KEYWORD,github
 
 # ----------------- (Artificial Intelligence) -----------------
 DOMAIN-SUFFIX,openai.com
