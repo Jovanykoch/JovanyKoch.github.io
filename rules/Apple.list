@@ -1,5 +1,10 @@
 # 🍎 Apple.list (Malaysia‑Optimized, Pure DOMAIN / DOMAIN‑SUFFIX)
-# ===== Core Apple =====
+# Apple.list
+# Optimized for Surge iOS
+# Pure DOMAIN / DOMAIN-SUFFIX
+# Minimal + Accurate
+
+# ===== Core =====
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,apple.cn
@@ -9,28 +14,22 @@ DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com.cn
 
-# ===== App Store / iTunes =====
+# ===== App Store / Media =====
 DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,mzstatic.com
 
-# ===== Apple CDN (APAC / Malaysia relevant) =====
+# ===== Apple CDN =====
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,apple-dns.com
 DOMAIN-SUFFIX,apple-dns.cn
 
-# ===== Malaysia / Singapore Apple CDN Edges =====
-DOMAIN-SUFFIX,akadns.net
-DOMAIN-SUFFIX,akadns6.net
-DOMAIN-SUFFIX,edgekey.net
-DOMAIN-SUFFIX,edgesuite.net
-DOMAIN-SUFFIX,akamaiedge.net
-DOMAIN-SUFFIX,akamaihd.net
-DOMAIN-SUFFIX,akamaized.net
+# ===== Push / APNs =====
+DOMAIN-SUFFIX,push.apple.com
 
-# ===== Activation / Setup =====
+# ===== Activation =====
 DOMAIN,albert.apple.com
 DOMAIN,captive.apple.com
 DOMAIN,gs.apple.com
@@ -38,35 +37,31 @@ DOMAIN,humb.apple.com
 DOMAIN,sq-device.apple.com
 DOMAIN,tbsc.apple.com
 
-# ===== Time / NTP =====
+# ===== Time =====
 DOMAIN,time.apple.com
 DOMAIN,time-ios.apple.com
 DOMAIN,time-macos.apple.com
 
-# ===== APNs =====
-DOMAIN-SUFFIX,push.apple.com
-DOMAIN-SUFFIX,api.push.apple.com
-
-# ===== Maps / Location =====
+# ===== Maps =====
 DOMAIN-SUFFIX,apple-mapkit.com
-DOMAIN-SUFFIX,apple-livephotoskit.com
 
 # ===== Developer =====
 DOMAIN-SUFFIX,swift.org
 DOMAIN-SUFFIX,webkit.org
 DOMAIN-SUFFIX,apple-cloudkit.com
 
-# ===== User Content =====
-DOMAIN-SUFFIX,appleschoolcontent.com
-DOMAIN-SUFFIX,axm-usercontent-apple.com
+# ===== Apple Services =====
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mac.com
 
-# ===== Subsidiaries =====
-DOMAIN-SUFFIX,shazam.com
-DOMAIN-SUFFIX,beatsbydre.com
-DOMAIN-SUFFIX,beddit.com
-DOMAIN-SUFFIX,claris.com
-DOMAIN-SUFFIX,filemaker.com
-DOMAIN-SUFFIX,filemaker-cloud.com
-DOMAIN-SUFFIX,ifmcloud.com
-DOMAIN-SUFFIX,pixelmator.com
-DOMAIN-SUFFIX,platoon.ai
+# ===== Media / TV =====
+DOMAIN-SUFFIX,applemusic.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,tv.apple.com
+
+# ===== TestFlight =====
+DOMAIN-SUFFIX,testflightapp.com
+
+# ===== Wallet / Pay =====
+DOMAIN-SUFFIX,apple-pay-gateway.apple
+DOMAIN-SUFFIX,applewallet.com
