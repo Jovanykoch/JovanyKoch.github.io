@@ -1,0 +1,142 @@
+# DomesticCDN.list
+# Surge RULE-SET
+# Updated: 2026-05
+# Content-Type: DOMAIN / DOMAIN-SUFFIX only
+# Purpose:
+# - China mainland CDN / static / acceleration domains
+# - Recommended policy: DIRECT
+# - Optimized for Surge iOS 5.17+
+# - No IP / GEOIP / ASN rules included
+# - Strict DOMAIN / DOMAIN-SUFFIX format only
+
+# ===== Alibaba Cloud / AliCDN =====
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,alikunlun.com
+DOMAIN-SUFFIX,kunlungr.com
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,taobaocdn.com
+DOMAIN-SUFFIX,tbcache.com
+
+# ===== Tencent Cloud / QCloud CDN =====
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,qcloudcdn.com
+DOMAIN-SUFFIX,tcdn.qq.com
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,idqqimg.com
+DOMAIN-SUFFIX,qqurl.com
+
+# ===== Baidu CDN =====
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,bcebos.com
+DOMAIN-SUFFIX,bdimg.com
+DOMAIN-SUFFIX,baidupcs.com
+DOMAIN-SUFFIX,baiducontent.com
+
+# ===== Huawei Cloud =====
+DOMAIN-SUFFIX,myhuaweicloud.com
+DOMAIN-SUFFIX,huaweicloud.com
+DOMAIN-SUFFIX,hc-cdn.com
+DOMAIN-SUFFIX,hwcloudlive.com
+
+# ===== China Mobile CDN =====
+DOMAIN-SUFFIX,cmvideo.cn
+DOMAIN-SUFFIX,miguvideo.com
+DOMAIN-SUFFIX,migu.cn
+
+# ===== China Telecom CDN =====
+DOMAIN-SUFFIX,21cn.com
+DOMAIN-SUFFIX,189.cn
+DOMAIN-SUFFIX,ctyunxs.cn
+
+# ===== China Unicom CDN =====
+DOMAIN-SUFFIX,wostore.cn
+DOMAIN-SUFFIX,wo.cn
+
+# ===== ByteDance CDN =====
+DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,volccdn.com
+DOMAIN-SUFFIX,volceapplog.com
+DOMAIN-SUFFIX,byted-static.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,zijieapi.com
+
+# ===== NetEase CDN =====
+DOMAIN-SUFFIX,126.net
+DOMAIN-SUFFIX,127.net
+DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,netease.im
+
+# ===== JD CDN =====
+DOMAIN-SUFFIX,jdcdn.com
+DOMAIN-SUFFIX,jcloudcs.com
+DOMAIN-SUFFIX,jcloud.com
+DOMAIN-SUFFIX,360buyimg.com
+
+# ===== Bilibili CDN =====
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,biliimg.com
+
+# ===== Xiaomi CDN =====
+DOMAIN-SUFFIX,mi-img.com
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,xiaomi.net
+
+# ===== Meituan CDN =====
+DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,sankuai.com
+
+# ===== Sina / Weibo CDN =====
+DOMAIN-SUFFIX,sinaimg.cn
+DOMAIN-SUFFIX,weibocdn.com
+DOMAIN-SUFFIX,weibo.cn
+
+# ===== QingStor / UCloud =====
+DOMAIN-SUFFIX,qingstor.com
+DOMAIN-SUFFIX,ucloud.cn
+
+# ===== UPYUN =====
+DOMAIN-SUFFIX,upaiyun.com
+DOMAIN-SUFFIX,b0.upaiyun.com
+
+# ===== ChinaCache =====
+DOMAIN-SUFFIX,chinacache.net
+DOMAIN-SUFFIX,ccgslb.com
+
+# ===== Wangsu CDN =====
+DOMAIN-SUFFIX,wscdns.com
+DOMAIN-SUFFIX,wscloudcdn.com
+
+# ===== Kingsoft Cloud =====
+DOMAIN-SUFFIX,ksyun.com
+DOMAIN-SUFFIX,ksyuncdn.com
+
+# ===== Qiniu CDN =====
+DOMAIN-SUFFIX,qbox.me
+DOMAIN-SUFFIX,qiniu.com
+DOMAIN-SUFFIX,qiniucdn.com
+
+# ===== FastDNS / DNSPod =====
+DOMAIN-SUFFIX,dnspod.com
+DOMAIN-SUFFIX,dnsv1.com
+
+# ===== Generic Mainland Static Resources =====
+DOMAIN-SUFFIX,staticfile.org
+DOMAIN-SUFFIX,bootcdn.net
+DOMAIN-SUFFIX,npmmirror.com
+DOMAIN-SUFFIX,polyfill.io
+
+# ===== Developer Mirrors =====
+DOMAIN-SUFFIX,tuna.tsinghua.edu.cn
+DOMAIN-SUFFIX,mirrors.ustc.edu.cn
+DOMAIN-SUFFIX,mirrors.aliyun.com
+
+# ===== Common Domestic Image / Media CDN =====
+DOMAIN-SUFFIX,imgchina.com
+DOMAIN-SUFFIX,imgcdn.cn
+DOMAIN-SUFFIX,cncdn.cn
+DOMAIN-SUFFIX,staticdn.net
+
+# ===== End =====
