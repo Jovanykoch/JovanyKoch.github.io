@@ -1,45 +1,91 @@
-# (Video)
+# StreamingCN.list
+# Optimized for Surge iOS
+# China Mainland Streaming / Music / Media
+# Policy suggestion: RULE-SET,StreamingCN,DIRECT
 
-# > qishui (sodamusic)
-DOMAIN-KEYWORD,qishui
+# ==============================
+# Video
+# ==============================
 
 # > Tencent Video
+DOMAIN,video.qq.com
+DOMAIN,v.qq.com
+DOMAIN,i.qq.com
 DOMAIN-SUFFIX,video.qq.com
-DOMAIN-SUFFIX,i.qq.com
 DOMAIN-SUFFIX,v.qq.com
+DOMAIN-SUFFIX,qqvideo.tc.qq.com
+DOMAIN-SUFFIX,tc.qq.com
+DOMAIN-SUFFIX,tcdn.qq.com
 
-# > XiGua
+# > XiGua / China ByteDance Video
 DOMAIN-SUFFIX,ixigua.com
-DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,ixiguavideo.com
+DOMAIN-SUFFIX,ixigua.video
+DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,zijieapi.com
 
-# (Music)
-# > QQ Music
-DOMAIN-SUFFIX,music.qq.com
-DOMAIN-SUFFIX,music.tc.qq.com
-DOMAIN-SUFFIX,qqmusic.qq.com
-DOMAIN-SUFFIX,tencentmusic.com
-DOMAIN-SUFFIX,y.qq.com
+# > Qishui / Soda Music
+DOMAIN-KEYWORD,qishui
+
+# ==============================
+# Music
+# ==============================
+
+# > QQ Music / Tencent Music
+DOMAIN,music.qq.com
+DOMAIN,y.qq.com
+DOMAIN,qqmusic.qq.com
 DOMAIN,aqqmusic.tc.qq.com
+DOMAIN,music.tc.qq.com
 DOMAIN,moo.qq.com
+DOMAIN-SUFFIX,tencentmusic.com
+DOMAIN-SUFFIX,qqmusic.qq.com
+DOMAIN-SUFFIX,music.tc.qq.com
+DOMAIN-SUFFIX,tc.qq.com
+DOMAIN-SUFFIX,tcdn.qq.com
 
-# > China Music Corp
-DOMAIN-SUFFIX,kuwo.cn
-DOMAIN-SUFFIX,kugou.com
-
-# > Netease Cloud Music
-DOMAIN-SUFFIX,music.163.com
-DOMAIN-SUFFIX,music.126.net
+# > NetEase Cloud Music
+DOMAIN,music.163.com
 DOMAIN,mam.netease.com
 DOMAIN,api.iplay.163.com
+DOMAIN-SUFFIX,music.163.com
+DOMAIN-SUFFIX,music.126.net
+DOMAIN-SUFFIX,vod.126.net
+DOMAIN-SUFFIX,music126.net
+DOMAIN-SUFFIX,126.net
+DOMAIN-SUFFIX,127.net
 
-# > Qianqian Music
+# > Kugou / Kuwo
+DOMAIN-SUFFIX,kugou.com
+DOMAIN-SUFFIX,kugouinfo.com
+DOMAIN-SUFFIX,kuwo.cn
+DOMAIN-SUFFIX,kwimgs.com
+
+# > Qianqian Music / Taihe
 DOMAIN-SUFFIX,qianqian.com
 DOMAIN-SUFFIX,taihe.com
 
 # > Migu Music
 DOMAIN-SUFFIX,migu.cn
+DOMAIN-SUFFIX,miguvideo.com
+DOMAIN-SUFFIX,migucloud.com
 
-# > Xiaomi
-DOMAIN-SUFFIX,ai.xiaomi.com
-DOMAIN-SUFFIX,music.xiaomi.com
+# > Xiaomi Music / AI
+DOMAIN,ai.xiaomi.com
+DOMAIN,music.xiaomi.com
 DOMAIN-SUFFIX,dmhmusic.com
+
+# ==============================
+# Common China Media CDN
+# ==============================
+
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,bdydns.com
+DOMAIN-SUFFIX,ksyungslb.com
+DOMAIN-SUFFIX,ksyun.com
