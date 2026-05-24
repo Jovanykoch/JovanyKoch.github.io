@@ -63,12 +63,6 @@ DOMAIN,spotify.com
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,scdn.com
 
-
-# Streaming
-DOMAIN,disneyplus.com
-DOMAIN-SUFFIX,disneyplus.com
-DOMAIN-SUFFIX,dssott.com
-
 # Developer CDN
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,unpkg.com
