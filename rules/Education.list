@@ -1,0 +1,29 @@
+# US Education
+DOMAIN-SUFFIX,edu
+
+# Common Academic Services
+DOMAIN-SUFFIX,instructure.com
+DOMAIN-SUFFIX,canvaslms.com
+DOMAIN-SUFFIX,blackboard.com
+DOMAIN-SUFFIX,turnitin.com
+DOMAIN-SUFFIX,chegg.com
+DOMAIN-SUFFIX,coursera.org
+DOMAIN-SUFFIX,edx.org
+DOMAIN-SUFFIX,udemy.com
+DOMAIN-SUFFIX,quizlet.com
+DOMAIN-SUFFIX,proctoru.com
+DOMAIN-SUFFIX,duolingo.com
+
+# Research / Academic
+DOMAIN-SUFFIX,jstor.org
+DOMAIN-SUFFIX,ieee.org
+DOMAIN-SUFFIX,acm.org
+DOMAIN-SUFFIX,springer.com
+DOMAIN-SUFFIX,sciencedirect.com
+DOMAIN-SUFFIX,nature.com
+DOMAIN-SUFFIX,wiley.com
+
+# Specific Schools
+DOMAIN-SUFFIX,csun.edu
+DOMAIN-SUFFIX,jjc.edu
+DOMAIN-SUFFIX,spokane.edu
