@@ -59,9 +59,9 @@ DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,youtu.be
 
 # Spotify
-DOMAIN,spotify.com
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,scdn.com
+# DOMAIN,spotify.com
+# DOMAIN-SUFFIX,spotify.com
+# DOMAIN-SUFFIX,scdn.com
 
 # Developer CDN
 DOMAIN-SUFFIX,jsdelivr.net
