@@ -1,11 +1,11 @@
-DOMAIN-SUFFIX,cn
-DOMAIN-SUFFIX,lan
-DOMAIN-SUFFIX,local
+HOST-SUFFIX,cn
+HOST-SUFFIX,lan
+HOST-SUFFIX,local
 
-# 中文域名       // .公司       // .中国       // .网络
-DOMAIN-SUFFIX,xn--55qx5d 
-DOMAIN-SUFFIX,xn--fiqs8s
-DOMAIN-SUFFIX,xn--io0a7i
+
+HOST-SUFFIX,xn--55qx5d 
+HOST-SUFFIX,xn--fiqs8s
+HOST-SUFFIX,xn--io0a7i
 
 IP-CIDR,10.0.0.0/8
 IP-CIDR,100.64.0.0/10
