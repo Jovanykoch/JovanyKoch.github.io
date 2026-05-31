@@ -1,6 +1,6 @@
 # Surge DOMAIN-SET (exact domains, one per line)
 # Source: https://nssurge.com/llms.txt
-# Lines: 3
+# Domains: 3
 #
 kb.nssurge.com
 manual.nssurge.com
