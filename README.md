@@ -1,4 +1,4 @@
-# AI Context for Jovany Koch
+# Jovany Koch
 
 ## Profile
 - Name: Jovany Koch
