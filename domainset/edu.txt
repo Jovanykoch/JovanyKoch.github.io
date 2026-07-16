@@ -35,3 +35,8 @@ instructuremedia.com
 
 # Campusservices
 mycsunbox.com
+
+# Duo
+duo.com
+duosecurity.com
+duofederal.com
