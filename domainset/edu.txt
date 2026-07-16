@@ -11,11 +11,27 @@ jjc.edu
 instructure-uploads.s3.amazonaws.com
 *.instructuremedia.com
 
-# 常见登录
+#
 login.microsoftonline.com
 *.microsoftonline.com
 *.msidentity.com
 
-# 作业
+# 
 turnitin.com
 *.turnitin.com
+
+# CSUN
+csun.edu
+
+# Identity authentication
+shibboleth.csun.edu
+
+# Canvas
+canvas.csun.edu
+csun.instructure.com
+canvaslms.com
+instructure.com
+instructuremedia.com
+
+# Campusservices
+mycsunbox.com
