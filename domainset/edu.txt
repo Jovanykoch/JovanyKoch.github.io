@@ -1,0 +1,21 @@
+# JJC iCampus (Canvas)
+icampus.instructure.com
+*.instructure.com
+*.canvaslms.com
+
+# JJC
+jjc.edu
+*.jjc.edu
+
+# Canvas CDN
+instructure-uploads.s3.amazonaws.com
+*.instructuremedia.com
+
+# 常见登录
+login.microsoftonline.com
+*.microsoftonline.com
+*.msidentity.com
+
+# 作业
+turnitin.com
+*.turnitin.com
