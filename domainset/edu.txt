@@ -8,6 +8,23 @@ csun.edu
 shibboleth.csun.edu
 mycsunbox.com
 
+# CTCLink
+ctclink.us
+*.ctclink.us
+
+# SF College
+sfcollege.edu
+*.sfcollege.edu
+
+# Liberty University
+liberty.edu
+*.liberty.edu
+
+# Spokane Community College
+spokane.edu
+*.spokane.edu
+scc.spokane.edu
+
 # iCampus / Canvas
 icampus.instructure.com
 canvas.csun.edu
