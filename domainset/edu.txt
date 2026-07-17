@@ -1,42 +1,35 @@
-# JJC iCampus (Canvas)
-icampus.instructure.com
-*.instructure.com
-*.canvaslms.com
-
 # JJC
 jjc.edu
 *.jjc.edu
 
-# Canvas CDN
-instructure-uploads.s3.amazonaws.com
-*.instructuremedia.com
-
-#
-login.microsoftonline.com
-*.microsoftonline.com
-*.msidentity.com
-
-# 
-turnitin.com
-*.turnitin.com
-
 # CSUN
 csun.edu
-
-# Identity authentication
+*.csun.edu
 shibboleth.csun.edu
+mycsunbox.com
 
-# Canvas
+# iCampus / Canvas
+icampus.instructure.com
 canvas.csun.edu
 csun.instructure.com
 canvaslms.com
+*.canvaslms.com
 instructure.com
+*.instructure.com
 instructuremedia.com
-
-# Campusservices
-mycsunbox.com
+*.instructuremedia.com
+instructure-uploads.s3.amazonaws.com
 
 # Duo
 duo.com
+*.duo.com
 duosecurity.com
+*.duosecurity.com
 duofederal.com
+
+# SSO / Academic tools
+login.microsoftonline.com
+*.microsoftonline.com
+*.msidentity.com
+turnitin.com
+*.turnitin.com
