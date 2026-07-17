@@ -1,0 +1,44 @@
+# CyberZen Surge 5 Allowlist V5
+# Place this RULE-SET before the adblock RULE-SET.
+
+# Google account, push and platform services
+DOMAIN,accounts.google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN,mtalk.google.com
+DOMAIN,clientservices.googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN,play.google.com
+DOMAIN,clients4.google.com
+
+# Meta / Facebook media
+DOMAIN,video.xx.fbcdn.net
+DOMAIN,scontent.xx.fbcdn.net
+
+# Douyin / ByteDance media and application API
+DOMAIN,pull-hls-t6.douyincdn.com
+DOMAIN,pull-flv-l26.douyincdn.com
+DOMAIN,aweme.snssdk.com
+
+# X / Twitter application services
+DOMAIN,t.co
+DOMAIN,api.twitter.com
+DOMAIN,api.x.com
+DOMAIN,pbs.twimg.com
+DOMAIN,video.twimg.com
+
+# Xiaomi IoT
+DOMAIN,io.mi.com
+DOMAIN,api.io.mi.com
+DOMAIN,home.mi.com
+DOMAIN,api.mijia.tech
+DOMAIN,broker.mqtt.pandora.xiaomi.com
+DOMAIN,ota.cdn.pandora.xiaomi.com
+
+# System and WeChat essentials
+DOMAIN,wx.qlogo.cn
+DOMAIN,apd-pcdnwxnat.teg.tencent-cloud.net
+DOMAIN-SUFFIX,pool.ntp.org
+DOMAIN,time.apple.com
+
+# Pinduoduo root service only; exact ad subdomains remain blocked
+DOMAIN,pinduoduo.com
