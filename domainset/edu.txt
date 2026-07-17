@@ -1,52 +1,23 @@
-# JJC
 jjc.edu
-*.jjc.edu
-
-# CSUN
 csun.edu
-*.csun.edu
 shibboleth.csun.edu
 mycsunbox.com
-
-# CTCLink
 ctclink.us
-*.ctclink.us
-
-# SF College
 sfcollege.edu
-*.sfcollege.edu
-
-# Liberty University
 liberty.edu
-*.liberty.edu
-
-# Spokane Community College
 spokane.edu
-*.spokane.edu
 scc.spokane.edu
-
-# iCampus / Canvas
 icampus.instructure.com
 canvas.csun.edu
 csun.instructure.com
 canvaslms.com
-*.canvaslms.com
 instructure.com
-*.instructure.com
 instructuremedia.com
-*.instructuremedia.com
 instructure-uploads.s3.amazonaws.com
-
-# Duo
 duo.com
-*.duo.com
 duosecurity.com
-*.duosecurity.com
 duofederal.com
-
-# SSO / Academic tools
 login.microsoftonline.com
-*.microsoftonline.com
-*.msidentity.com
+microsoftonline.com
+msidentity.com
 turnitin.com
-*.turnitin.com
