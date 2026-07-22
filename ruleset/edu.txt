@@ -1,0 +1,80 @@
+# CSUN / School Email + Microsoft 365 SSO Stable
+# Surge Rule Set
+# It is recommended to bind to a fixed U.S. node, such as US-SFO-01 / US-LAX-01
+
+# School domains
+DOMAIN-SUFFIX,csun.edu
+DOMAIN-SUFFIX,jjc.edu
+DOMAIN-SUFFIX,spokane.edu
+DOMAIN-SUFFIX,liberty.edu
+DOMAIN-SUFFIX,sfcollege.edu
+DOMAIN-SUFFIX,ccc.edu
+DOMAIN-SUFFIX,asu.edu
+
+# CTCLINK
+DOMAIN-SUFFIX,ctclink.us
+DOMAIN-KEYWORD,ctclink
+
+
+# CSUN SSO
+DOMAIN-SUFFIX,shibboleth.csun.edu
+
+# Duo MFA
+DOMAIN-SUFFIX,duosecurity.com
+DOMAIN-SUFFIX,duofederal.com
+DOMAIN-SUFFIX,duo.com
+
+# Microsoft login / Entra ID / Azure AD
+DOMAIN,login.live.com
+DOMAIN-SUFFIX,login.microsoftonline.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,microsoftonline-p.com
+DOMAIN-SUFFIX,msidentity.com
+DOMAIN-SUFFIX,msftidentity.com
+DOMAIN-SUFFIX,windowsazure.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,mimecast.com
+
+# Microsoft authentication static resources
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,msauthimages.net
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msftauthimages.net
+DOMAIN-SUFFIX,aadcdn.msftauth.net
+DOMAIN-SUFFIX,aadcdn.msauth.net
+
+# Microsoft 365 / Office / Outlook
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,microsoft365.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,outlook.office.com
+DOMAIN-SUFFIX,outlook.office365.com
+DOMAIN-SUFFIX,substrate.office.com
+DOMAIN-SUFFIX,sharepoint.com
+
+# Microsoft API / account services
+DOMAIN-SUFFIX,graph.microsoft.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,aadrm.com
+
+# Teams, if school account also uses Teams
+DOMAIN-SUFFIX,teams.microsoft.com
+DOMAIN-SUFFIX,teams.live.com
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,lync.com
+
+# Learning platforms
+DOMAIN-SUFFIX,instructure.com
+DOMAIN-SUFFIX,canvaslms.com
+DOMAIN-SUFFIX,blackboard.com
+DOMAIN-SUFFIX,turnitin.com
+DOMAIN-SUFFIX,coursera.org
+DOMAIN-SUFFIX,edx.org
+DOMAIN-SUFFIX,stujjc.sharepoint.com
+
+DOMAIN-KEYWORD,csun
+DOMAIN-KEYWORD,jjc
+DOMAIN-KEYWORD,spokane
