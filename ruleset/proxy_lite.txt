@@ -1,0 +1,35 @@
+# NAME: Proxy Lite
+# AUTHOR: JovanyKoch
+# UPDATED: 2026-06-03
+# TYPE: Surge Ruleset
+
+DOMAIN-SUFFIX,truecaller.com
+DOMAIN-SUFFIX,studentbeans.com
+DOMAIN-SUFFIX,unidays.com
+DOMAIN-SUFFIX,discord.co
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,airtable.com
+DOMAIN-SUFFIX,akamai.net
+DOMAIN-SUFFIX,hostuno.com
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,vercel.app
+DOMAIN-SUFFIX,vercel.com
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,unpkg.com
+DOMAIN-SUFFIX,cdnjs.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spotifycdn.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,jkoch14.me
+DOMAIN-SUFFIX,santag.tech
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonaws.com
+
+DOMAIN-KEYWORD,discord
+DOMAIN-KEYWORD,spotify
+DOMAIN-KEYWORD,amazon
+DOMAIN-KEYWORD,gmail
