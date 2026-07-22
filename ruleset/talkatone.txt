@@ -1,0 +1,40 @@
+# Talkatone Rule-Set for Surge iOS (Surge 5)
+# Format: RULE-SET
+# Strategy: Prefer DOMAIN-SUFFIX and include API/CDN/Auth/Static domains
+
+DOMAIN-SUFFIX,talkatone.com
+DOMAIN-SUFFIX,tktn.at
+DOMAIN-SUFFIX,talkatoneapp.com
+DOMAIN-SUFFIX,talkatonecdn.com
+DOMAIN-SUFFIX,twilio.com
+DOMAIN-SUFFIX,twilioedge.com
+DOMAIN-SUFFIX,twiliocdn.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,branch.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
+DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com
+DOMAIN-SUFFIX,fcm.googleapis.com
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,fastly.net
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,braintreepayments.com
+DOMAIN-SUFFIX,onesignal.com
+DOMAIN-SUFFIX,pusher.com
+DOMAIN-SUFFIX,sendgrid.net
+DOMAIN-SUFFIX,mailgun.org
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,zendesk.com
