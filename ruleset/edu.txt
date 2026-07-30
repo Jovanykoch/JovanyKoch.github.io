@@ -12,7 +12,7 @@ DOMAIN-SUFFIX,ccc.edu
 DOMAIN-SUFFIX,asu.edu
 DOMAIN-SUFFIX,lanecc.edu
 DOMAIN-SUFFIX,maricopa.edu
-
+DOMAIN-SUFFIX,riosalado.edu
 
 # CTCLINK
 DOMAIN-SUFFIX,ctclink.us
@@ -90,5 +90,6 @@ DOMAIN-KEYWORD,lanecc
 DOMAIN-KEYWORD,canvas
 DOMAIN-KEYWORD,liberty
 DOMAIN-KEYWORD,sfcollege
+DOMAIN-KEYWORD,riosalado
 
 
