@@ -72,6 +72,7 @@ DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,lync.com
 
 # Learning platforms
+DOMAIN-SUFFIX,cdn.riolearn.org
 DOMAIN-SUFFIX,instructure.com
 DOMAIN-SUFFIX,canvaslms.com
 DOMAIN-SUFFIX,blackboard.com
@@ -80,6 +81,7 @@ DOMAIN-SUFFIX,coursera.org
 DOMAIN-SUFFIX,edx.org
 DOMAIN-SUFFIX,stujjc.sharepoint.com
 
+DOMAIN-KEYWORD,riolearn
 DOMAIN-KEYWORD,csun
 DOMAIN-KEYWORD,jjc
 DOMAIN-KEYWORD,spokane
