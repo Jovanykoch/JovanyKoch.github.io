@@ -1,0 +1,33 @@
+# ==========================================
+# Apple Services Split Routing Rules
+# Optimized for Loon Version 3.5.1
+# Format: DOMAIN & DOMAIN-SUFFIX only (No Policy/Policy Group)
+# Language: English Comments Only
+# ==========================================
+
+# --- 1. Core Apple Domains ---
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,appsto.re
+
+# --- 2. iCloud & Data Sync Services ---
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+
+# --- 3. App Store, Apple Music & Media ---
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,cdn-apple.com
+
+# --- 4. Developer Services & TestFlight ---
+DOMAIN-SUFFIX,developer.apple.com
+DOMAIN-SUFFIX,testflight.apple.com
+
+# --- 5. Push Notifications & Core CDN (Exact Matches) ---
+DOMAIN,gateway.push.apple.com
+DOMAIN,configuration.apple.com
+DOMAIN,time.apple.com
