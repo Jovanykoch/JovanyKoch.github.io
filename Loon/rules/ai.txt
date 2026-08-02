@@ -1,0 +1,60 @@
+# ==========================================
+# Unified AI Services Rule Set (OpenAI, Claude, Gemini)
+# Optimized for Loon Version 3.5.1
+# Format: DOMAIN & DOMAIN-SUFFIX only (No Policy/Policy Group)
+# Language: English Comments Only
+# ==========================================
+
+# ==========================================
+# Section 1: OpenAI & ChatGPT Services
+# ==========================================
+# --- 1.1 Web App & Brand Domains ---
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,chat.com
+
+# --- 1.2 Static Assets & User Content CDNs ---
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# --- 1.3 Authentication & Intercom Support ---
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,featuregates.org
+
+# --- 1.4 Specific Core Gateways ---
+DOMAIN,cdn.oaistatic.com
+DOMAIN,gateway.ai.cloudflare.com
+
+# ==========================================
+# Section 2: Anthropic & Claude Services
+# ==========================================
+# --- 2.1 Web App & Official Sites ---
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.usercontent.com
+
+# --- 2.2 Telemetry & Secondary Domains ---
+DOMAIN-SUFFIX,usefathom.com
+
+# ==========================================
+# Section 3: Google Gemini & AI Services
+# ==========================================
+# --- 3.1 Web Applications ---
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+
+# --- 3.2 Developer Platform & APIs ---
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,alkalemagondola-pa.googleapis.com
+
+# --- 3.3 DeepMind & AI Research ---
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+
+# --- 3.4 Specific Domain Exact Matches ---
+DOMAIN,ai.google.dev
+DOMAIN,makersuite.google.com
