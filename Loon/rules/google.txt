@@ -1,33 +1,49 @@
 # ==========================================
-# Apple Services Split Routing Rules
+# Google Services Rule Set
 # Optimized for Loon Version 3.5.1
 # Format: DOMAIN & DOMAIN-SUFFIX only (No Policy/Policy Group)
 # Language: English Comments Only
 # ==========================================
 
-# --- 1. Core Apple Domains ---
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,appsto.re
+# --- 1. Core Google Domains & International TLDs ---
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,google.com.tw
+DOMAIN-SUFFIX,google.co.jp
+DOMAIN-SUFFIX,google.co.uk
+DOMAIN-SUFFIX,google.ca
+DOMAIN-SUFFIX,google.de
 
-# --- 2. iCloud & Data Sync Services ---
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
+# --- 2. Static Assets, CDN & Media Domains ---
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
 
-# --- 3. App Store, Apple Music & Media ---
-DOMAIN-SUFFIX,itunes.com
-DOMAIN-SUFFIX,apple-dns.net
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,cdn-apple.com
+# --- 3. YouTube & Video Streaming Services ---
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,yt.be
 
-# --- 4. Developer Services & TestFlight ---
-DOMAIN-SUFFIX,developer.apple.com
-DOMAIN-SUFFIX,testflight.apple.com
+# --- 4. Google Workspace, Mail & Productivity ---
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googleapps.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googletagmanager.com
 
-# --- 5. Push Notifications & Core CDN (Exact Matches) ---
-DOMAIN,gateway.push.apple.com
-DOMAIN,configuration.apple.com
-DOMAIN,time.apple.com
+# --- 5. Short URLs & Developer Services ---
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,golang.org
+DOMAIN-SUFFIX,tensorflow.org
+DOMAIN-SUFFIX,android.com
+
+# --- 6. Specific Core Domains (Exact Matches) ---
+DOMAIN,google.com
+DOMAIN,www.google.com
+DOMAIN,dl.google.com
+DOMAIN,dns.google
