@@ -1,32 +1,40 @@
-# ==========================================
-# Apple Services Rule Set
-# Optimized for Loon Version 3.5.1
-# Format: DOMAIN & DOMAIN-SUFFIX (No Policy/Policy Group)
-# ==========================================
+# =========================================
+# Rule Name: Apple
+# Description: Routing rules for Apple, iCloud, App Store, and Apple Media
+# Loon Version: 3.5.3+
+# =========================================
 
-# --- 1. Core Apple Domains ---
+# > Core Apple Services & CDNs
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,appsto.re
-
-# --- 2. iCloud & Data Sync Services ---
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
-
-# --- 3. App Store, Apple Music & Media ---
-DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apple-mapkit.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,cdn-apple.com.akadns.net
 
-# --- 4. Developer Services & TestFlight ---
-DOMAIN-SUFFIX,developer.apple.com
-DOMAIN-SUFFIX,testflight.apple.com
+# > iCloud
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mac.com
 
-# --- 5. Push Notifications & Core CDN ---
-DOMAIN,gateway.push.apple.com
-DOMAIN,configuration.apple.com
-DOMAIN,time.apple.com
+# > App Store & Media (iTunes, Apple Music, Apple TV, News)
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,apple.news
+
+# > Keywords
+DOMAIN-KEYWORD,apple
+DOMAIN-KEYWORD,icloud
+
+# > IP ASN (Apple Inc.)
+IP-ASN,714,no-resolve
+
+# =========================================
+# EOF
+# =========================================
