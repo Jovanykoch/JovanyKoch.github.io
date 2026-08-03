@@ -1,0 +1,60 @@
+# =========================================
+# Rule Name: Microsoft
+# Description: Routing rules for Microsoft, Office 365, Azure, and Xbox
+# Loon Version: 3.5.3+
+# =========================================
+
+# > Core Microsoft Services
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,msocdn.com
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,microsoftapp.net
+DOMAIN-SUFFIX,mesh.com
+
+# > Microsoft 365 / Office / Skype
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,skypeassets.com
+DOMAIN-SUFFIX,lync.com
+DOMAIN-SUFFIX,teams.microsoft.com
+
+# > Bing
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bing.net
+DOMAIN-SUFFIX,bingapis.com
+
+# > Azure & Cloud Infrastructure
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,azure.net
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,windowsazure.com
+DOMAIN-SUFFIX,trafficmanager.net
+
+# > Xbox
+DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,xboxservices.com
+
+# > Keywords
+DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,windows
+DOMAIN-KEYWORD,onedrive
+
+# > IP ASN (Catches Microsoft Corp's global IP addresses)
+IP-ASN,8075,no-resolve
+
+# =========================================
+# EOF
+# =========================================
