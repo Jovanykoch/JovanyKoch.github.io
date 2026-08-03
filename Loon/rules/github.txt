@@ -1,0 +1,30 @@
+# =========================================
+# Rule Name: GitHub
+# Description: Routing rules for GitHub services
+# Loon Version: 3.5.1+
+# =========================================
+
+# > GitHub Copilot
+DOMAIN,api.githubcopilot.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,copilot-telemetry.githubusercontent.com
+
+# > GitHub Pages
+DOMAIN-SUFFIX,github.io
+DOMAIN-KEYWORD,github.io
+
+# > GitHub Main & API
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-KEYWORD,github
+
+# > IP Ranges (Optional: if you want strict IP routing for GitHub)
+# IP-CIDR,140.82.112.0/20,no-resolve
+# IP-CIDR,192.30.252.0/22,no-resolve
+# IP-CIDR,185.199.108.0/22,no-resolve
+
+# =========================================
+# EOF
+# =========================================
