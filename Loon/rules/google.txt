@@ -1,49 +1,53 @@
-# ==========================================
-# Google Services Rule Set
-# Optimized for Loon Version 3.5.1
-# Format: DOMAIN & DOMAIN-SUFFIX only (No Policy/Policy Group)
-# Language: English Comments Only
-# ==========================================
+# =========================================
+# Rule Name: Google
+# Description: Routing rules for Google services, Android, and YouTube
+# Loon Version: 3.5.1+
+# =========================================
 
-# --- 1. Core Google Domains & International TLDs ---
+# > Core Google Services
 DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,google.com.hk
-DOMAIN-SUFFIX,google.com.tw
-DOMAIN-SUFFIX,google.co.jp
-DOMAIN-SUFFIX,google.co.uk
-DOMAIN-SUFFIX,google.ca
-DOMAIN-SUFFIX,google.de
-
-# --- 2. Static Assets, CDN & Media Domains ---
+DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,google.co.jp
+DOMAIN-SUFFIX,google.co.uk
+DOMAIN-SUFFIX,g.co
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googlesyndication.com
 
-# --- 3. YouTube & Video Streaming Services ---
+# > YouTube
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,yt.be
 
-# --- 4. Google Workspace, Mail & Productivity ---
-DOMAIN-SUFFIX,gmail.com
-DOMAIN-SUFFIX,googleapps.com
-DOMAIN-SUFFIX,googlemail.com
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,googletagmanager.com
-
-# --- 5. Short URLs & Developer Services ---
-DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,golang.org
-DOMAIN-SUFFIX,tensorflow.org
+# > Android & Google Play
 DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
 
-# --- 6. Specific Core Domains (Exact Matches) ---
-DOMAIN,google.com
-DOMAIN,www.google.com
-DOMAIN,dl.google.com
-DOMAIN,dns.google
+# > Other Google Products (Mail, ReCaptcha, Blogger, etc.)
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,blogger.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,waze.com
+DOMAIN-SUFFIX,withgoogle.com
+
+# > Keywords
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,youtube
+
+# > IP ASN (Catches all Google IP addresses globally)
+IP-ASN,15169,no-resolve
+
+# =========================================
+# EOF
+# =========================================
