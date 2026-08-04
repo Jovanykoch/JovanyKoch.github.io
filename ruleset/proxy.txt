@@ -1,4 +1,9 @@
 DOMAIN-SUFFIX,us
+DOMAIN-KEYWORD,talkatone
+DOMAIN-SUFFIX,boxcar.io
+DOMAIN-SUFFIX,talkatone.com
+DOMAIN-KEYWORD,talkatone
+DOMAIN-SUFFIX,boxcar.io
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,gmail
@@ -7,6 +12,7 @@ DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,oculus
 DOMAIN-KEYWORD,youtube
 DOMAIN-KEYWORD,github
+DOMAIN-SUFFIX,talkatone.com
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,scdn.co
