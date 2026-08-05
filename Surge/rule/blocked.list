@@ -1,7 +1,14 @@
+# >> US
+DOMAIN-SUFFIX,US
+
 # >> Google
 # This still includes 9to5google, but anyway
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,blogspot
+
+# >> Talkatone
+DOMAIN-SUFFIX,talkatone.com
+DOMAIN-KEYWORD,talkatone
 
 # >> Reddit
 DOMAIN-SUFFIX,redd.it
