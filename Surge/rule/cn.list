@@ -29,7 +29,7 @@ DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,weixin.com
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,gtimg.com
-USER-AGENT,wechat*
+DOMAIM-SUFFIX,wechat.com
 
 # Alibaba
 DOMAIN-SUFFIX,taobao.com
@@ -75,7 +75,8 @@ DOMAIN-SUFFIX,v2ex.com
 DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,baidu
-DOMAIN-KEYWORD,tencent
+DOMAIN-KEYWORD,tencen
+DOMAIN-KEYWORD,wechat
 
 # (NetEase Cloud Music)
 DOMAIN-SUFFIX,music.163.com
