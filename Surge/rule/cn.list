@@ -26,10 +26,9 @@ DOMAIN-SUFFIX,upaiyun.com
 # Tencent
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,tencent.com
-DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,gtimg.com
-DOMAIM-SUFFIX,wechat.com
 
 # Alibaba
 DOMAIN-SUFFIX,taobao.com
