@@ -68,6 +68,9 @@ DOMAIN-SUFFIX,abchina.com
 DOMAIN-SUFFIX,cmbchina.com
 DOMAIN-SUFFIX,unionpay.com
 
+# V2ex
+DOMAIN-SUFFIX,v2ex.com
+
 # Keyword Rules
 DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,taobao
