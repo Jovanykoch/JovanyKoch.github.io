@@ -1,0 +1,87 @@
+# Surge 5 Domain Rule Set: Mainland China Direct
+# Format: DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD
+
+# Common TLDs
+DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,com.cn
+DOMAIN-SUFFIX,net.cn
+DOMAIN-SUFFIX,org.cn
+DOMAIN-SUFFIX,gov.cn
+DOMAIN-SUFFIX,edu.cn
+DOMAIN-SUFFIX,xn--fiqs8s
+DOMAIN-SUFFIX,xn--55qx5d
+DOMAIN-SUFFIX,xn--io0a7i
+
+# Core Internet Infrastructure & CDN
+DOMAIN-SUFFIX,alibabacloud.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,dnsv1.com
+DOMAIN-SUFFIX,qiniucdn.com
+DOMAIN-SUFFIX,qhimg.com
+DOMAIN-SUFFIX,upaiyun.com
+
+# Major Tech Ecosystems
+# Tencent
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,gtimg.com
+USER-AGENT,wechat*
+
+# Alibaba
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,amap.com
+
+# Baidu
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,bdimg.com
+DOMAIN-SUFFIX,baidupcs.com
+
+# E-commerce & Logistics
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,yangkeduo.com
+DOMAIN-SUFFIX,sf-express.com
+DOMAIN-SUFFIX,cainiao.com
+
+# Media & Streaming
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,mgtv.com
+DOMAIN-SUFFIX,ximalaya.com
+
+# Banking & Finance
+DOMAIN-SUFFIX,icbc.com.cn
+DOMAIN-SUFFIX,ccb.com
+DOMAIN-SUFFIX,boc.cn
+DOMAIN-SUFFIX,abchina.com
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,unionpay.com
+
+# Keyword Rules
+DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,taobao
+DOMAIN-KEYWORD,baidu
+DOMAIN-KEYWORD,tencent
+
+# (NetEase Cloud Music)
+DOMAIN-SUFFIX,music.163.com
+DOMAIN-SUFFIX,126.net, DIRECT
+DOMAIN-SUFFIX,music.126.net
+USER-AGENT,NeteaseMusic*
+
+# (Kugou Music)
+DOMAIN-SUFFIX,kugou.com
+DOMAIN-SUFFIX,kgimg.com
+USER-AGENT,KuGou*
+USER-AGENT,%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90*
