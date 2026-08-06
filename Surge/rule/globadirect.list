@@ -55,6 +55,10 @@ DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,unpkg.com
 
+# Viltr
+DOMAIN-SUFFIX,vultrinference.com
+DOMAIN-SUFFIX,vultr.com
+
 # Telegram ASN
 IP-ASN,62041,no-resolve
 IP-ASN,62014,no-resolve
@@ -78,3 +82,4 @@ DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,netflix
 DOMAIN-KEYWORD,spotify
+DOMAIN-KEYWORD,vultr
