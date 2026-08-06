@@ -35,3 +35,9 @@ DOMAIN-SUFFIX,cloudapp.net
 
 # >> Oracle
 DOMAIN-SUFFIX,oracle.com
+
+# >> Unidaus
+DOMAIN-SUFFIX,truecaller.com
+DOMAIN-SUFFIX,studentbeans.com
+DOMAIN-SUFFIX,unidays.com
+
