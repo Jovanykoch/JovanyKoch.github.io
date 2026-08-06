@@ -55,6 +55,13 @@ DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,unpkg.com
 
+# Telegram ASN
+IP-ASN,62041,no-resolve
+IP-ASN,62014,no-resolve
+IP-ASN,59930,no-resolve
+IP-ASN,211157,no-resolve
+IP-ASN,44907,no-resolve
+
 # Keywords
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,claude
