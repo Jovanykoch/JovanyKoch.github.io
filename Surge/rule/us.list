@@ -41,3 +41,13 @@ DOMAIN-SUFFIX,truecaller.com
 DOMAIN-SUFFIX,studentbeans.com
 DOMAIN-SUFFIX,unidays.com
 
+# > Talkatone Core Domains
+DOMAIN-SUFFIX,talkatone.com
+DOMAIN-KEYWORD,talkatone
+DOMAIN-SUFFIX,tktn.at
+DOMAIN-SUFFIX,tktn.be
+DOMAIN-SUFFIX,kochava.com
+DOMAIN-SUFFIX,inmobi.com
+IP-CIDR,63.251.124.0/24,no-resolve
+IP-CIDR,69.46.75.0/24,no-resolve
+
