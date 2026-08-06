@@ -1,0 +1,26 @@
+# OpenAI
+DOMAIN,chat.openai.com
+DOMAIN,api.openai.com
+DOMAIN-SUFFIX,openai.com
+
+# Claude
+DOMAIN,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+
+# Gemini
+DOMAIN,gemini.google.com
+
+# Copilot
+DOMAIN,copilot.microsoft.com
+
+# Perplexity
+DOMAIN-SUFFIX,perplexity.ai
+
+# Grok
+DOMAIN,grok.com
+
+# Generic Keywords
+DOMAIN-KEYWORD,gpt
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,gemini
+DOMAIN-KEYWORD,copilot
