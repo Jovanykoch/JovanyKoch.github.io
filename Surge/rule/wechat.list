@@ -1,0 +1,37 @@
+# Name: rules-wechat
+# Updated: 2026-07-21 22:53:31 UTC
+# Total: 33
+
+DOMAIN,img03.sogoucdn.com
+DOMAIN,cdn1.dcloud.net.cn
+DOMAIN,wcmp.189.cn
+DOMAIN,jiguang.coc.10086.cn
+DOMAIN,slife.xy-asia.com
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+DOMAIN,wx.qlogo.cn
+DOMAIN,ap-guangzhou-fit.log.zhiyan.tencent-cloud.net
+DOMAIN-SUFFIX,sevicewechat.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,weixinsxy.com
+DOMAIN-SUFFIX,qq.net
+DOMAIN-SUFFIX,iot-tencent.com
+DOMAIN-SUFFIX,lbs.gtimg.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,wechatos.net
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,qq.com.cn
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,weixinbridge.com
+DOMAIN-SUFFIX,qq.design
+DOMAIN-SUFFIX,wechatpay.cn
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,qq.cn.com
+DOMAIN-SUFFIX,wechatlegal.net
+DOMAIN-SUFFIX,wx.gtimg.com
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,gtime.com
+DOMAIN-SUFFIX,wechatpay.com
+USER-AGENT,MicroMessenger*
+USER-AGENT,WeChat*
+IP-ASN,132203,no-resolve
+IP-ASN,4811,no-resolve
