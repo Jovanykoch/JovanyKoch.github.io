@@ -67,6 +67,7 @@ IP-ASN,211157,no-resolve
 IP-ASN,44907,no-resolve
 
 # Keywords
+DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,gemini
