@@ -108,7 +108,7 @@ DOMAIN-SUFFIX,shibboleth.csun.edu
 DOMAIN-SUFFIX,duosecurity.com
 DOMAIN-SUFFIX,duofederal.com
 DOMAIN-SUFFIX,duo.com
-DOMAIN-KEYWORD,duo
+# DOMAIN-KEYWORD,duo
 
 # Microsoft login / Entra ID / Azure AD
 DOMAIN,login.live.com
