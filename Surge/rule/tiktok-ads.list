@@ -1,0 +1,8 @@
+# Name: tiktok-ads
+# Updated: 2026-08-10
+# Total: 4
+
+DOMAIN-SUFFIX,ads-api.tiktok.com
+DOMAIN-SUFFIX,ads-sg.tiktok.com
+DOMAIN-SUFFIX,ads.tiktok.com
+DOMAIN-SUFFIX,business-api.tiktok.com
