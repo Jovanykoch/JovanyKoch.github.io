@@ -65,6 +65,7 @@ IP-ASN,211157,no-resolve
 IP-ASN,44907,no-resolve
 
 # Keywords
+DOMAIN-KEYWORD,aliyun
 DOMAIN-KEYWORD,v2ex
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,claude
