@@ -2,14 +2,12 @@
 # Format: DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD
 
 # Core Global Services
-DOMAIN,chat.openai.com
-DOMAIN,api.openai.com
 DOMAIN,copilot.microsoft.com
 DOMAIN,gemini.google.com
 DOMAIN,claude.ai
 
 # Global Platforms
-DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,klaviyo.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,anthropic.com
@@ -66,7 +64,6 @@ IP-ASN,44907,no-resolve
 
 # Keywords
 DOMAIN-KEYWORD,whatsapp
-DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,gemini
 DOMAIN-KEYWORD,copilot
