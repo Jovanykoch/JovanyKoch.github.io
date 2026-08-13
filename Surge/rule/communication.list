@@ -1,6 +1,6 @@
 # Name: rules-communication
 # Updated: 2026-08-13
-# Total: 171
+# Total: 163
 
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
@@ -166,11 +166,3 @@ IP-ASN,44907,no-resolve
 IP-ASN,29691,no-resolve
 IP-ASN,397755,no-resolve
 IP-ASN,395291,no-resolve
-DST-PORT,3484
-DST-PORT,1400
-DST-PORT,596-599
-DST-PORT,19302–19309
-DST-PORT,3482
-DST-PORT,5222
-DST-PORT,3478
-DST-PORT,3480
