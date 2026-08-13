@@ -5,6 +5,8 @@
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
 DOMAIN,graph.facebook.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fbcdn.net
 DOMAIN,teams.events.data.microsoft.com
 DOMAIN-SUFFIX,protonvpn.com
 DOMAIN-SUFFIX,telega.one
@@ -115,6 +117,7 @@ DOMAIN-SUFFIX,keybase.io
 DOMAIN-KEYWORD,nicegram
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,v2ex
+DOMAIN-KEYWORD,facebook
 IP-CIDR,173.194.175.188/32,no-resolve
 IP-CIDR,64.233.187.188/32,no-resolve
 IP-CIDR,172.217.194.188/32,no-resolve
