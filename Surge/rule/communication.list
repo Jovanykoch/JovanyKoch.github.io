@@ -114,6 +114,7 @@ DOMAIN-SUFFIX,discordapp.io
 DOMAIN-SUFFIX,keybase.io
 DOMAIN-KEYWORD,nicegram
 DOMAIN-KEYWORD,whatsapp
+DOMAIN-KEYWORD,v2ex
 IP-CIDR,173.194.175.188/32,no-resolve
 IP-CIDR,64.233.187.188/32,no-resolve
 IP-CIDR,172.217.194.188/32,no-resolve
@@ -162,14 +163,15 @@ IP-CIDR,5.28.192.0/18,no-resolve
 IP-CIDR,74.125.206.188/32,no-resolve
 IP-CIDR,54.242.0.0/15,no-resolve
 IP-CIDR,142.250.10.188/32,no-resolve
-IP-ASN,59930,no-resolve
-IP-ASN,29691,no-resolve
-IP-ASN,44907,no-resolve
-IP-ASN,397755,no-resolve
-IP-ASN,62014,no-resolve
-IP-ASN,211157,no-resolve
-IP-ASN,395291,no-resolve
+# Telegram ASN
 IP-ASN,62041,no-resolve
+IP-ASN,62014,no-resolve
+IP-ASN,59930,no-resolve
+IP-ASN,211157,no-resolve
+IP-ASN,44907,no-resolve
+IP-ASN,29691,no-resolve
+IP-ASN,397755,no-resolve
+IP-ASN,395291,no-resolve
 DST-PORT,3484
 DST-PORT,1400
 DST-PORT,596-599
