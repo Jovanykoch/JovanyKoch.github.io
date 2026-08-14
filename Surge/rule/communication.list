@@ -1,6 +1,6 @@
 # Name: rules-communication
 # Updated: 2026-08-13
-# Total: 163
+# Total: 171
 
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
@@ -114,6 +114,14 @@ DOMAIN-SUFFIX,discord.store
 DOMAIN-SUFFIX,wa.me
 DOMAIN-SUFFIX,discordapp.io
 DOMAIN-SUFFIX,keybase.io
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,nicegram
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,v2ex
