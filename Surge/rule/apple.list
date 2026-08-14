@@ -8,6 +8,7 @@ DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,lookup-api.apple.com.edgekey.net
 DOMAIN,edge.apple
+DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,ampaeservices.com
 DOMAIN-SUFFIX,apple-inc.net
 DOMAIN-SUFFIX,beatsodre.com
