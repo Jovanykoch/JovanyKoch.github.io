@@ -1,0 +1,39 @@
+# >> US
+DOMAIN-SUFFIX,US
+
+# > Truecaller 
+DOMAIN-SUFFIX,truecaller.com
+DOMAIN-KEYWORD,talkatone
+DOMAIN-KEYWORD,truecaller
+
+# > Talkatone Core Domains
+DOMAIN-SUFFIX,talkatone.com
+DOMAIN-KEYWORD,talkatone
+DOMAIN-SUFFIX,tktn.at
+DOMAIN-SUFFIX,tktn.be
+DOMAIN-SUFFIX,kochava.com
+DOMAIN-SUFFIX,inmobi.com
+IP-CIDR,63.251.124.0/24,no-resolve
+IP-CIDR,69.46.75.0/24,no-resolve
+
+# >> saily
+DOMAIN-SUFFIX,saily.com
+
+# >> Microsoft Overseas
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,linkedin.at
+DOMAIN-SUFFIX,lnkd.in
+# Bing Image AI
+DOMAIN-SUFFIX,bing.com
+
+# >> Microsoft Azure
+DOMAIN-SUFFIX,azurecontainer.io
+DOMAIN-SUFFIX,azurewebsites.net
+DOMAIN-SUFFIX,azure-mobile.net
+DOMAIN-SUFFIX,cloudapp.net
+
+# >> Oracle
+DOMAIN-SUFFIX,oracle.com
+
