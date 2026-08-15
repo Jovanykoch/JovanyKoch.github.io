@@ -6,6 +6,13 @@ DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflareworkers.com
 DOMAIN-SUFFIX,workers.dev
 
+# NVIDIA AI / API
+DOMAIN-SUFFIX,dsx-air.nvidia.com
+DOMAIN-SUFFIX,build.nvidia.com
+DOMAIN-SUFFIX,integrate.api.nvidia.com
+DOMAIN-SUFFIX,api.nvidia.com
+DOMAIN-SUFFIX,nvidia.com
+
 # GitHub
 DOMAIN,github.com
 DOMAIN-SUFFIX,github.com
