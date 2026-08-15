@@ -1,0 +1,38 @@
+# Cloudflare
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare.net
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,cloudflareworkers.com
+DOMAIN-SUFFIX,workers.dev
+
+# GitHub
+DOMAIN,github.com
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-KEYWORD,github
+
+# Akamai
+DOMAIN,akamai.com
+DOMAIN-SUFFIX,akamai.com
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,akamaiedge.net
+
+# Truecaller
+DOMAIN,truecaller.com
+DOMAIN-SUFFIX,truecaller.com
+DOMAIN-SUFFIX,truecaller.net
+DOMAIN-KEYWORD,truecaller
+
+# Talkatone
+DOMAIN,talkatone.com
+DOMAIN-SUFFIX,talkatone.com
+DOMAIN-SUFFIX,talkatone.net
+DOMAIN-KEYWORD,talkatone
+
+# Saily
+DOMAIN,saily.com
+DOMAIN-SUFFIX,saily.com
+DOMAIN-KEYWORD,saily
