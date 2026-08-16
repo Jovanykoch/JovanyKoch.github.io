@@ -16,6 +16,9 @@ DOMAIN,teams.events.data.microsoft.com
 DOMAIN-SUFFIX,protonvpn.com
 DOMAIN-SUFFIX,alibabadns.com
 DOMAIN-SUFFIX,telega.one
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,instagram.net
+DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,nbabot.net
 DOMAIN-SUFFIX,mbrx.app
 DOMAIN-SUFFIX,discordapp.com
