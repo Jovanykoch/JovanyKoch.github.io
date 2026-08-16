@@ -5,14 +5,6 @@ DOMAIN-SUFFIX,integrate.api.nvidia.com
 DOMAIN-SUFFIX,api.nvidia.com
 DOMAIN-SUFFIX,nvidia.com
 
-# GitHub
-DOMAIN,github.com
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,raw.githubusercontent.com
-DOMAIN-KEYWORD,github
-
 # Akamai
 DOMAIN,akamai.com
 DOMAIN-SUFFIX,akamai.com
