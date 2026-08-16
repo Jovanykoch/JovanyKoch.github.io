@@ -61,16 +61,12 @@ DOMAIN-SUFFIX,abchina.com
 DOMAIN-SUFFIX,cmbchina.com
 DOMAIN-SUFFIX,unionpay.com
 
-# V2ex
-DOMAIN-SUFFIX,v2ex.com
-
 # Keyword Rules
 DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,tencent
 DOMAIN-KEYWORD,wechat
-DOMAIN-KEYWORD,v2ex
 
 # (NetEase Cloud Music)
 DOMAIN-SUFFIX,music.163.com
