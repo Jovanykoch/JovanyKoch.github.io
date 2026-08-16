@@ -1,12 +1,17 @@
 # Name: rules-communication
 # Updated: 2026-08-13
-# Total: 171
+# Total: 181
 
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
 DOMAIN,graph.facebook.com
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fbcdn.net
+DOMAIN,github.com
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,raw.githubusercontent.com
 DOMAIN,teams.events.data.microsoft.com
 DOMAIN-SUFFIX,protonvpn.com
 DOMAIN-SUFFIX,telega.one
@@ -126,6 +131,7 @@ DOMAIN-KEYWORD,nicegram
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,v2ex
 DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,github
 IP-CIDR,173.194.175.188/32,no-resolve
 IP-CIDR,64.233.187.188/32,no-resolve
 IP-CIDR,172.217.194.188/32,no-resolve
