@@ -350,3 +350,13 @@ DOMAIN-KEYWORD,wb_ad
 DOMAIN-KEYWORD,weather-adge.apple.com
 DOMAIN-KEYWORD,weather-edge.apple.com
 DOMAIN-KEYWORD,westlawchina
+
+# Telegram ASN
+IP-ASN,62041,no-resolve
+IP-ASN,62014,no-resolve
+IP-ASN,59930,no-resolve
+IP-ASN,211157,no-resolve
+IP-ASN,44907,no-resolve
+IP-ASN,29691,no-resolve
+IP-ASN,397755,no-resolve
+IP-ASN,395291,no-resolve
