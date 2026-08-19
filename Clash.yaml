@@ -1,0 +1,125 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+bind-address: "*"
+ipv6: false
+mode: rule
+log-level: info
+
+external-controller: 127.0.0.1:9090
+
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+
+  use-hosts: true
+
+  fake-ip-filter:
+    - "*.lan"
+    - "*.local"
+    - "*.arpa"
+    - "time.*.com"
+    - "ntp.*.com"
+    - "+.market.xiaomi.com"
+    - "localhost.ptlogin2.qq.com"
+    - "*.msftncsi.com"
+    - "www.msftconnecttest.com"
+
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+
+  nameserver:
+    - "https://doh.pub/dns-query"
+    - "https://dns.alidns.com/dns-query"
+
+  nameserver-policy:
+    "geosite:cn":
+      - "https://doh.pub/dns-query"
+      - "https://dns.alidns.com/dns-query"
+
+    "geosite:geolocation-!cn":
+      - "https://dns.cloudflare.com/dns-query"
+      - "https://dns.google/dns-query"
+
+  proxy-server-nameserver:
+    - "https://doh.pub/dns-query"
+    - "https://dns.alidns.com/dns-query"
+
+  fallback:
+    - "https://dns.cloudflare.com/dns-query"
+    - "https://dns.google/dns-query"
+
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
+
+proxies:
+  - name: "233boy-ss-69.28.88.179"
+    type: ss
+    server: 69.28.88.179
+    port: 8388
+    cipher: aes-256-gcm
+    password: "abc123"
+    udp: true
+
+proxy-groups:
+  - name: "Proxies"
+    type: select
+    proxies:
+      - "233boy-ss-69.28.88.179"
+      - DIRECT
+
+rules:
+  - DOMAIN-SUFFIX,1password.com,DIRECT
+  - DOMAIN-SUFFIX,vultr.com,DIRECT
+  - DOMAIN-SUFFIX,mb3admin.com,DIRECT
+  - DOMAIN-SUFFIX,rixcloud.io,DIRECT
+  - DOMAIN-SUFFIX,tempestapp.io,DIRECT
+  - DOMAIN-SUFFIX,baidu.com,DIRECT
+  - DOMAIN-SUFFIX,baidu-int.com,DIRECT
+  - DOMAIN-SUFFIX,erebor.douban.com,DIRECT
+
+  - DOMAIN,mtalk.google.com,DIRECT
+  - DOMAIN,alt1-mtalk.google.com,DIRECT
+  - DOMAIN,alt2-mtalk.google.com,DIRECT
+  - DOMAIN,alt3-mtalk.google.com,DIRECT
+  - DOMAIN,alt4-mtalk.google.com,DIRECT
+  - DOMAIN,alt5-mtalk.google.com,DIRECT
+  - DOMAIN,alt6-mtalk.google.com,DIRECT
+  - DOMAIN,alt7-mtalk.google.com,DIRECT
+  - DOMAIN,alt8-mtalk.google.com,DIRECT
+  - DOMAIN,alt9-mtalk.google.com,DIRECT
+
+  - DOMAIN,captive.apple.com,DIRECT
+  - DOMAIN,time-ios.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,push.apple.com,DIRECT
+
+  - DOMAIN-KEYWORD,github,Proxies
+  - DOMAIN-SUFFIX,github.com,Proxies
+  - DOMAIN-SUFFIX,github.io,Proxies
+  - DOMAIN-SUFFIX,githubapp.com,Proxies
+  - DOMAIN-SUFFIX,githubassets.com,Proxies
+  - DOMAIN-SUFFIX,githubusercontent.com,Proxies
+
+  - DOMAIN-SUFFIX,home-intl.console.aliyun.com,Proxies
+  - DOMAIN,ip.skk.moe,Proxies
+  - DOMAIN,ip.sb,Proxies
+
+  - DOMAIN-SUFFIX,googleapis.cn,Proxies
+  - DOMAIN-SUFFIX,maying.co,Proxies
+  - DOMAIN-SUFFIX,flowercloud.net,Proxies
+  - DOMAIN-SUFFIX,socloud.me,Proxies
+  - DOMAIN-SUFFIX,ytoo.asia,Proxies
+  - DOMAIN-SUFFIX,ytoo.co.uk,Proxies
+
+  - GEOIP,CN,DIRECT
+  - MATCH,Proxies
