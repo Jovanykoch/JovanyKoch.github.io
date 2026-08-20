@@ -1,9 +1,38 @@
 # Name: meta-ads
 # Updated: 2026-00-10
-# Total: 5
+# Total: 32
 
-DOMAIN-SUFFIX,ads.facebook.com
-DOMAIN-SUFFIX,analytics.facebook.com
-DOMAIN-SUFFIX,facebookads.com
-DOMAIN-SUFFIX,graph-fallback.instagram.com
+# > Meta / Facebook Core Ad & Tracking Domains
+DOMAIN-KEYWORD,admarket
+DOMAIN-KEYWORD,atlasmarketing
+DOMAIN-KEYWORD,facebook-marketing
+
+DOMAIN-SUFFIX,an.facebook.com
+DOMAIN-SUFFIX,atlasolutions.com
+DOMAIN-SUFFIX,atlassolutions.com
+DOMAIN-SUFFIX,business.facebook.com
+DOMAIN-SUFFIX,connect.facebook.net
+DOMAIN-SUFFIX,graph.facebook.com
+DOMAIN-SUFFIX,graph.instagram.com
+DOMAIN-SUFFIX,graph.threads.net
+DOMAIN-SUFFIX,m.facebook.com/ads
 DOMAIN-SUFFIX,pixel.facebook.com
+DOMAIN-SUFFIX,pixel.instagram.com
+DOMAIN-SUFFIX,rubiconproject.com
+DOMAIN-SUFFIX,threads-ads.net
+DOMAIN-SUFFIX,tr.facebook.com
+DOMAIN-SUFFIX,tracking.threads.net
+DOMAIN-SUFFIX,web.facebook.com/ads
+
+# > Audience Network & Analytics Endpoints
+DOMAIN-SUFFIX,audiencenetwork.facebook.com
+DOMAIN-SUFFIX,ads.facebook.com
+DOMAIN-SUFFIX,ads.instagram.com
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,analytics.facebook.com
+DOMAIN-SUFFIX,events.facebook.com
+DOMAIN-SUFFIX,logging.facebook.com
+DOMAIN-SUFFIX,meta.com/ads
+DOMAIN-SUFFIX,stats.facebook.com
+DOMAIN-SUFFIX,telemetry.facebook.com
+DOMAIN-SUFFIX,tr.threads.net
