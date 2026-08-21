@@ -175,11 +175,11 @@ DOMAIN-KEYWORD,riosalado
 DOMAIN-KEYWORD,studentbeans
 
 # NVIDIA AI / API
-DOMAIN-SUFFIX,dsx-air.nvidia.com
-DOMAIN-SUFFIX,build.nvidia.com
-DOMAIN-SUFFIX,integrate.api.nvidia.com
-DOMAIN-SUFFIX,api.nvidia.com
-DOMAIN-SUFFIX,nvidia.com
+# DOMAIN-SUFFIX,dsx-air.nvidia.com
+# DOMAIN-SUFFIX,build.nvidia.com
+# DOMAIN-SUFFIX,integrate.api.nvidia.com
+# DOMAIN-SUFFIX,api.nvidia.com
+# DOMAIN-SUFFIX,nvidia.com
 
 # Akamai
 DOMAIN,akamai.com
