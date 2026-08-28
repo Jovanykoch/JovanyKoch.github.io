@@ -1,0 +1,56 @@
+# Title: Surge 5 Back to China Rule Set
+# Description: Routing rules for Mainland China media and services
+
+DOMAIN-SUFFIX,amemv.com,
+DOMAIN-SUFFIX,snssdk.com,🇺🇸USA,extended-matching
+DOMAIN-SUFFIX,douyinvod.com,🇺🇸USA,extended-matching
+DOMAIN-SUFFIX,zjcdn.com,🇺🇸USA,extended-matching
+DOMAIN-SUFFIX,pstatp.com,🇺🇸USA,extended-matching
+DOMAIN-SUFFIX,douyin.com,🇺🇸USA,extended-matching
+DOMAIN-SUFFIX,iesdouyin.com,🇺🇸USA,extended-matching
+DOMAIN-SUFFIX,bytedance.com,🇺🇸USA,extended-matching
+
+
+# > Video Services
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,qiyi.com
+DOMAIN-SUFFIX,qy.net
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,ykimg.com
+DOMAIN-SUFFIX,mgtv.com
+DOMAIN-SUFFIX,hunantv.com
+DOMAIN-SUFFIX,v.qq.com
+DOMAIN-SUFFIX,video.qq.com
+DOMAIN-SUFFIX,sohu.com
+DOMAIN-SUFFIX,le.com
+DOMAIN-SUFFIX,pptv.com
+DOMAIN-KEYWORD,qiyi
+
+# > Audio & Music Services
+DOMAIN-SUFFIX,music.163.com
+DOMAIN-SUFFIX,music.126.net
+DOMAIN-SUFFIX,qqmusic.qq.com
+DOMAIN-SUFFIX,y.qq.com
+DOMAIN-SUFFIX,kugou.com
+DOMAIN-SUFFIX,kuwo.cn
+DOMAIN-SUFFIX,xiami.com
+DOMAIN-SUFFIX,taihe.com
+DOMAIN-SUFFIX,ximalaya.com
+DOMAIN-SUFFIX,qingting.fm
+
+# > Live Streaming & Sports
+DOMAIN-SUFFIX,douyu.com
+DOMAIN-SUFFIX,huya.com
+DOMAIN-SUFFIX,zhibo8.cc
+DOMAIN-SUFFIX,cctv.com
+DOMAIN-SUFFIX,cntv.cn
+DOMAIN-SUFFIX,yangshipin.cn
+DOMAIN-SUFFIX,txp.qq.com
+
+# > Reading & Manga
+DOMAIN-SUFFIX,bilibili.cn
+DOMAIN-SUFFIX,qqgongyi.com
+DOMAIN-SUFFIX,sogou.com
