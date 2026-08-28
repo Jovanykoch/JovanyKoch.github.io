@@ -1,8 +1,8 @@
 # Title: Surge 5 Back to China Rule Set
 # Description: Routing rules for Mainland China media and services
 
-# Bytendance
-DOMAIN-SUFFIX,amemv.com,
+# > ByteDance & Douyin
+DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,zjcdn.com
